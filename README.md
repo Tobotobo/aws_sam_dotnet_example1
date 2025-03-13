@@ -146,7 +146,7 @@ $ dotnet --version
     [*] Test Function in the Cloud: sam sync --stack-name {{stack-name}} --watch
     [*] Deploy: sam deploy --guided
     ```
-1. `sam-app` フォルダ内に `.aws-sam` フォルダが作成される
+1. `sam-app` フォルダ内に `.aws-sam` フォルダが作成される  
     ![alt text](docs/images/image-2.png)
 
 ## ステップ 3: アプリケーションを にデプロイする AWS クラウド
@@ -161,7 +161,7 @@ $ dotnet --version
     ```
     ※上記のコマンドがエラーになる場合は、アクセスキーの設定などがうまくいっていないので、もう一度 [事前準備](#事前準備) を確認してください。
 1. デプロイコマンドを実行する  
-    ※チュートリアルと異なり対話形式ではなくコマンドの引数でパラメータを指定しています。 
+    ※チュートリアルと異なり対話形式ではなくコマンドの引数でパラメータを指定しています。  
     ※Windows の場合は Git-Bash を用いるか `\` と改行を削除して 1 行にして実行してください。 
     ```
     sam deploy \
